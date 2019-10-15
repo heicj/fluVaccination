@@ -1,0 +1,2404 @@
+// 20191014233011
+// https://data.oregon.gov/api/views/giqv-798t/rows.json?accessType=DOWNLOAD
+
+{
+    "meta": {
+      "view": {
+        "id": "giqv-798t",
+        "name": "Healthcare Worker Influenza Vaccination Data for Hospitals 2017-2018",
+        "averageRating": 0,
+        "createdAt": 1553884834,
+        "displayType": "table",
+        "downloadCount": 37,
+        "hideFromCatalog": false,
+        "hideFromDataJson": false,
+        "indexUpdatedAt": 1561051734,
+        "newBackend": true,
+        "numberOfComments": 0,
+        "oid": 31243016,
+        "provenance": "official",
+        "publicationAppendEnabled": false,
+        "publicationDate": 1555089142,
+        "publicationGroup": 16075934,
+        "publicationStage": "published",
+        "rowsUpdatedAt": 1555089136,
+        "rowsUpdatedBy": "6zrw-9c3n",
+        "tableId": 16101635,
+        "totalTimesRated": 0,
+        "viewCount": 32,
+        "viewLastModified": 1555089142,
+        "viewType": "tabular",
+        "approvals": [
+          {
+            "reviewedAt": 1561051560,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 818005,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1561051560,
+            "workflowId": 1508,
+            "submissionDetails": {
+              "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+              "endedAt": 1561051561,
+              "failureCount": 0,
+              "startedAt": 1561051560,
+              "status": "success"
+            },
+            "submitter": {
+              "id": "6zrw-9c3n",
+              "displayName": "Monika E. Samper"
+            }
+          }
+        ],
+        "columns": [
+          {
+            "id": -1,
+            "name": "sid",
+            "dataTypeName": "meta_data",
+            "fieldName": ":sid",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+              
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "id",
+            "dataTypeName": "meta_data",
+            "fieldName": ":id",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+              
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "position",
+            "dataTypeName": "meta_data",
+            "fieldName": ":position",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+              
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "created_at",
+            "dataTypeName": "meta_data",
+            "fieldName": ":created_at",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+              
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "created_meta",
+            "dataTypeName": "meta_data",
+            "fieldName": ":created_meta",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+              
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "updated_at",
+            "dataTypeName": "meta_data",
+            "fieldName": ":updated_at",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+              
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "updated_meta",
+            "dataTypeName": "meta_data",
+            "fieldName": ":updated_meta",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+              
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "meta",
+            "dataTypeName": "meta_data",
+            "fieldName": ":meta",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+              
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": 403252880,
+            "name": "Facility Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "facility_name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 78697808,
+            "cachedContents": {
+              "largest": "Willamette Valley Medical Center",
+              "null": "0",
+              "top": [
+                {
+                  "item": "Bay Area Hospital",
+                  "count": "1"
+                },
+                {
+                  "item": "Providence St. Vincent Medical Center",
+                  "count": "1"
+                },
+                {
+                  "item": "Samaritan Lebanon Community Hospital",
+                  "count": "1"
+                },
+                {
+                  "item": "Providence Willamette Falls Medical Center",
+                  "count": "1"
+                },
+                {
+                  "item": "Good Samaritan Regional Medical Center",
+                  "count": "1"
+                },
+                {
+                  "item": "Blue Mountain Hospital",
+                  "count": "1"
+                },
+                {
+                  "item": "St Anthony Hospital",
+                  "count": "1"
+                },
+                {
+                  "item": "Tillamook Regional Medical Center",
+                  "count": "1"
+                },
+                {
+                  "item": "St. Charles Medical Center - Prineville",
+                  "count": "1"
+                },
+                {
+                  "item": "Salem Hospital",
+                  "count": "1"
+                },
+                {
+                  "item": "Asante Rogue Regional Medical Center",
+                  "count": "1"
+                },
+                {
+                  "item": "Mercy Medical Center",
+                  "count": "1"
+                },
+                {
+                  "item": "St. Charles Medical Center-Madras",
+                  "count": "1"
+                },
+                {
+                  "item": "Kaiser Permanente Westside Medical Center",
+                  "count": "1"
+                },
+                {
+                  "item": "Lake District Hospital",
+                  "count": "1"
+                },
+                {
+                  "item": "Oregon State Hospitals",
+                  "count": "1"
+                },
+                {
+                  "item": "Grande Ronde Hospital",
+                  "count": "1"
+                },
+                {
+                  "item": "West Valley Hospital",
+                  "count": "1"
+                },
+                {
+                  "item": "Kaiser Permanente Sunnyside Medical Center",
+                  "count": "1"
+                },
+                {
+                  "item": "Legacy Meridian Park Medical Center",
+                  "count": "1"
+                }
+              ],
+              "not_null": "63",
+              "smallest": "Adventist Medical Center",
+              "cardinality": "63"
+            },
+            "format": {
+              
+            }
+          },
+          {
+            "id": 403252881,
+            "name": "Overall Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "overall_percent",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 78697809,
+            "cachedContents": {
+              "largest": "0.963",
+              "null": "0",
+              "top": [
+                {
+                  "item": "0.88",
+                  "count": "3"
+                },
+                {
+                  "item": "0.866",
+                  "count": "2"
+                },
+                {
+                  "item": "0.808",
+                  "count": "2"
+                },
+                {
+                  "item": "0.74",
+                  "count": "2"
+                },
+                {
+                  "item": "0.817",
+                  "count": "2"
+                },
+                {
+                  "item": "0.845",
+                  "count": "2"
+                },
+                {
+                  "item": "0.912",
+                  "count": "1"
+                },
+                {
+                  "item": "0.735",
+                  "count": "1"
+                },
+                {
+                  "item": "0.83",
+                  "count": "1"
+                },
+                {
+                  "item": "0.814",
+                  "count": "1"
+                },
+                {
+                  "item": "0.834",
+                  "count": "1"
+                },
+                {
+                  "item": "0.937",
+                  "count": "1"
+                },
+                {
+                  "item": "0.793",
+                  "count": "1"
+                },
+                {
+                  "item": "0.923",
+                  "count": "1"
+                },
+                {
+                  "item": "0.7",
+                  "count": "1"
+                },
+                {
+                  "item": "0.869",
+                  "count": "1"
+                },
+                {
+                  "item": "0.898",
+                  "count": "1"
+                },
+                {
+                  "item": "0.691",
+                  "count": "1"
+                },
+                {
+                  "item": "0.745",
+                  "count": "1"
+                },
+                {
+                  "item": "0.842",
+                  "count": "1"
+                }
+              ],
+              "not_null": "63",
+              "smallest": "0.491",
+              "cardinality": "56"
+            },
+            "format": {
+              "precisionStyle": "percentage",
+              "percentScale": "1"
+            }
+          },
+          {
+            "id": 403252882,
+            "name": "Overall Declined Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "overall_declined_percent",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 78697810,
+            "cachedContents": {
+              "largest": "0.219",
+              "null": "0",
+              "top": [
+                {
+                  "item": "0.036",
+                  "count": "3"
+                },
+                {
+                  "item": "0.071",
+                  "count": "2"
+                },
+                {
+                  "item": "0.077",
+                  "count": "2"
+                },
+                {
+                  "item": "0.05",
+                  "count": "2"
+                },
+                {
+                  "item": "0.095",
+                  "count": "2"
+                },
+                {
+                  "item": "0.042",
+                  "count": "2"
+                },
+                {
+                  "item": "0.024",
+                  "count": "2"
+                },
+                {
+                  "item": "0.088",
+                  "count": "2"
+                },
+                {
+                  "item": "0.08",
+                  "count": "2"
+                },
+                {
+                  "item": "0.107",
+                  "count": "2"
+                },
+                {
+                  "item": "0.121",
+                  "count": "1"
+                },
+                {
+                  "item": "0.02",
+                  "count": "1"
+                },
+                {
+                  "item": "0.164",
+                  "count": "1"
+                },
+                {
+                  "item": "0.091",
+                  "count": "1"
+                },
+                {
+                  "item": "0.035",
+                  "count": "1"
+                },
+                {
+                  "item": "0.109",
+                  "count": "1"
+                },
+                {
+                  "item": "0.032",
+                  "count": "1"
+                },
+                {
+                  "item": "0.072",
+                  "count": "1"
+                },
+                {
+                  "item": "0.048",
+                  "count": "1"
+                },
+                {
+                  "item": "0.112",
+                  "count": "1"
+                }
+              ],
+              "not_null": "63",
+              "smallest": "0.0",
+              "cardinality": "52"
+            },
+            "format": {
+              "precisionStyle": "percentage",
+              "percentScale": "1"
+            }
+          },
+          {
+            "id": 403252883,
+            "name": "Overall Unknown Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "overall_unknown_percent",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 78697811,
+            "cachedContents": {
+              "largest": "0.385",
+              "null": "0",
+              "top": [
+                {
+                  "item": "0.0",
+                  "count": "3"
+                },
+                {
+                  "item": "0.152",
+                  "count": "3"
+                },
+                {
+                  "item": "0.058",
+                  "count": "3"
+                },
+                {
+                  "item": "0.078",
+                  "count": "2"
+                },
+                {
+                  "item": "0.048",
+                  "count": "2"
+                },
+                {
+                  "item": "0.014",
+                  "count": "2"
+                },
+                {
+                  "item": "0.052",
+                  "count": "2"
+                },
+                {
+                  "item": "0.112",
+                  "count": "2"
+                },
+                {
+                  "item": "0.008",
+                  "count": "1"
+                },
+                {
+                  "item": "0.13",
+                  "count": "1"
+                },
+                {
+                  "item": "0.164",
+                  "count": "1"
+                },
+                {
+                  "item": "0.034",
+                  "count": "1"
+                },
+                {
+                  "item": "0.214",
+                  "count": "1"
+                },
+                {
+                  "item": "0.032",
+                  "count": "1"
+                },
+                {
+                  "item": "0.013",
+                  "count": "1"
+                },
+                {
+                  "item": "0.175",
+                  "count": "1"
+                },
+                {
+                  "item": "0.009",
+                  "count": "1"
+                },
+                {
+                  "item": "0.049",
+                  "count": "1"
+                },
+                {
+                  "item": "0.063",
+                  "count": "1"
+                },
+                {
+                  "item": "0.227",
+                  "count": "1"
+                }
+              ],
+              "not_null": "63",
+              "smallest": "0.0",
+              "cardinality": "52"
+            },
+            "format": {
+              "precisionStyle": "percentage",
+              "percentScale": "1"
+            }
+          },
+          {
+            "id": 403252884,
+            "name": "Interpretation",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "interpretation",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 78697812,
+            "cachedContents": {
+              "largest": "≥90%",
+              "null": "0",
+              "top": [
+                {
+                  "item": "75-90%",
+                  "count": "39"
+                },
+                {
+                  "item": "60-74%",
+                  "count": "12"
+                },
+                {
+                  "item": "≥90%",
+                  "count": "10"
+                },
+                {
+                  "item": "≤59%",
+                  "count": "2"
+                }
+              ],
+              "not_null": "63",
+              "smallest": "≤59%",
+              "cardinality": "4"
+            },
+            "format": {
+              
+            }
+          },
+          {
+            "id": 403252885,
+            "name": "Met HP2020 goal",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "met_hp2020_goal",
+            "position": 6,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 78697813,
+            "cachedContents": {
+              "null": "0",
+              "top": [
+                {
+                  "item": false,
+                  "count": "53"
+                },
+                {
+                  "item": true,
+                  "count": "10"
+                }
+              ],
+              "not_null": "63",
+              "cardinality": "2"
+            },
+            "format": {
+              
+            }
+          },
+          {
+            "id": 403252886,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "address",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 78697814,
+            "cachedContents": {
+              "largest": "94220 Fourth Street Gold Beach OR 97444",
+              "null": "0",
+              "top": [
+                {
+                  "item": "500 SW Ramsey Avenue Grants Pass OR 97527",
+                  "count": "1"
+                },
+                {
+                  "item": "9205 SW Barnes Rd Portland OR 97225",
+                  "count": "1"
+                },
+                {
+                  "item": "900 11th St SE Bandon OR 97411",
+                  "count": "1"
+                },
+                {
+                  "item": "3101 SW Sam Jackson Park Road Portland OR 97239",
+                  "count": "1"
+                },
+                {
+                  "item": "930 SW Abbey St. Newport OR 97365",
+                  "count": "1"
+                },
+                {
+                  "item": "600 Ranch Rd Reedsport OR 97467",
+                  "count": "1"
+                },
+                {
+                  "item": "610 NW 11th Street Hermiston OR 97838",
+                  "count": "1"
+                },
+                {
+                  "item": "557 W Washington Street Burns OR 97720",
+                  "count": "1"
+                },
+                {
+                  "item": "342 Fairview Street Silverton OR 97381",
+                  "count": "1"
+                },
+                {
+                  "item": "94220 Fourth Street Gold Beach OR 97444",
+                  "count": "1"
+                },
+                {
+                  "item": "3181 SW Sam Jackson Park Rd Portland OR 97239",
+                  "count": "1"
+                },
+                {
+                  "item": "890 Oak St. Salem OR 97301",
+                  "count": "1"
+                },
+                {
+                  "item": "1001 Providence Drive Newberg OR 97132",
+                  "count": "1"
+                },
+                {
+                  "item": "335 SE 8th Avenue Hillsboro OR 97123",
+                  "count": "1"
+                },
+                {
+                  "item": "1015 NW 22nd Avenue Portland OR 97210",
+                  "count": "1"
+                },
+                {
+                  "item": "940 E. Fifth St. Coquille OR 97423",
+                  "count": "1"
+                },
+                {
+                  "item": "2875 NW Stucki Ave Hillsboro OR 97124",
+                  "count": "1"
+                },
+                {
+                  "item": "1775 Thompson Rd Coos Bay OR 97420",
+                  "count": "1"
+                },
+                {
+                  "item": "1515 Village Drive Cottage Grove OR 97424",
+                  "count": "1"
+                },
+                {
+                  "item": "2111 Exchange Astoria OR 97103",
+                  "count": "1"
+                }
+              ],
+              "not_null": "63",
+              "smallest": "1000 Third Street Tillamook OR 97141",
+              "cardinality": "63"
+            },
+            "format": {
+              
+            }
+          },
+          {
+            "id": 403252887,
+            "name": "New Georeferenced Column",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "geocoded_column",
+            "position": 8,
+            "renderTypeName": "point",
+            "tableColumnId": 79159667,
+            "cachedContents": {
+              "null": "1",
+              "top": [
+                {
+                  "item": {
+                    "coordinates": [
+                      -122.875667,
+                      45.539713
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -121.787391,
+                      42.252655
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -122.861,
+                      42.339971
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -119.06057,
+                      43.588723
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -118.769421,
+                      45.673008
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -124.418658,
+                      42.411659
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -124.402426,
+                      43.113244
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -123.818502,
+                      46.188503
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -123.251104,
+                      44.604624
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -122.986043,
+                      44.398692
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -117.846285,
+                      44.79612
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -122.614058,
+                      45.526518
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -116.975133,
+                      44.025448
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -122.783797,
+                      45.506265
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -121.266661,
+                      44.065757
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -122.725129,
+                      42.206445
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -122.830443,
+                      42.316483
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -120.842563,
+                      44.310442
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -123.854951,
+                      45.456322
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [
+                      -121.121358,
+                      44.637362
+                    ],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                }
+              ],
+              "not_null": "62",
+              "cardinality": "62"
+            },
+            "format": {
+              
+            }
+          },
+          {
+            "id": 403252888,
+            "name": "2010 House Districts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_7u8j_y3re",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 79159668,
+            "computationStrategy": {
+              "source_columns": [
+                "geocoded_column"
+              ],
+              "type": "georegion_match_on_point",
+              "parameters": {
+                "region": "_7u8j-y3re",
+                "primary_key": "_feature_id"
+              }
+            },
+            "format": {
+              
+            }
+          },
+          {
+            "id": 403252889,
+            "name": "2010 Senate Districts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_ciix_jbrk",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 79159669,
+            "computationStrategy": {
+              "source_columns": [
+                "geocoded_column"
+              ],
+              "type": "georegion_match_on_point",
+              "parameters": {
+                "region": "_ciix-jbrk",
+                "primary_key": "_feature_id"
+              }
+            },
+            "format": {
+              
+            }
+          },
+          {
+            "id": 403252890,
+            "name": "Counties",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_i25a_xk5b",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 79159670,
+            "computationStrategy": {
+              "source_columns": [
+                "geocoded_column"
+              ],
+              "type": "georegion_match_on_point",
+              "parameters": {
+                "region": "_i25a-xk5b",
+                "primary_key": "_feature_id"
+              }
+            },
+            "format": {
+              
+            }
+          }
+        ],
+        "grants": [
+          {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+              "public"
+            ]
+          }
+        ],
+        "metadata": {
+          "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+          ]
+        },
+        "owner": {
+          "id": "6zrw-9c3n",
+          "displayName": "Monika E. Samper",
+          "screenName": "Monika E. Samper",
+          "type": "interactive"
+        },
+        "query": {
+          
+        },
+        "rights": [
+          "read"
+        ],
+        "tableAuthor": {
+          "id": "6zrw-9c3n",
+          "displayName": "Monika E. Samper",
+          "screenName": "Monika E. Samper",
+          "type": "interactive"
+        },
+        "flags": [
+          "default",
+          "restorable",
+          "restorePossibleForType"
+        ]
+      }
+    },
+    "data": [
+      [
+        "row-e4nx_iams.j6s9",
+        "00000000-0000-0000-83DE-353123777DCD",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Lower Umpqua Hospital",
+        "0.491",
+        "0.124",
+        "0.385",
+        "≤59%",
+        false,
+        "600 Ranch Rd Reedsport OR 97467",
+        "POINT (-124.135571 43.695324)",
+        "9",
+        "5",
+        "2363"
+      ],
+      [
+        "row-a7bm-yfkt~qw2a",
+        "00000000-0000-0000-FB72-D2DE2370E9D9",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Harney District Hospital",
+        "0.691",
+        "0.157",
+        "0.152",
+        "60-74%",
+        false,
+        "557 W Washington Street Burns OR 97720",
+        "POINT (-119.06057 43.588723)",
+        "60",
+        "30",
+        "720"
+      ],
+      [
+        "row-tmfv_x4hg~5qry",
+        "00000000-0000-0000-C6EA-B7339AB2E4CD",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Coquille Valley Hospital",
+        "0.737",
+        "0.184",
+        "0.078",
+        "60-74%",
+        false,
+        "940 E. Fifth St. Coquille OR 97423",
+        "POINT (-124.179143 43.178982)",
+        "1",
+        "1",
+        "2320"
+      ],
+      [
+        "row-s996.7y7j~q35e",
+        "00000000-0000-0000-35E9-89944471B12E",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Shriners Hospitals for Children - Portland",
+        "0.923",
+        "0.024",
+        "0.053",
+        "≥90%",
+        true,
+        "3101 SW Sam Jackson Park Road Portland OR 97239",
+        "POINT (-122.684603 45.500105)",
+        "36",
+        "18",
+        "2410"
+      ],
+      [
+        "row-ddku~knm2~vuz9",
+        "00000000-0000-0000-D32B-CB683A0769A3",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Santiam Memorial Hospital",
+        "0.873",
+        "0.088",
+        "0.04",
+        "75-90%",
+        false,
+        "1401 N. 10th Ave Stayton OR 97383",
+        "POINT (-122.784124 44.80524)",
+        "17",
+        "9",
+        "2409"
+      ],
+      [
+        "row-yk2p.r4j8_bewq",
+        "00000000-0000-0000-940D-E802E9E29FCD",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Good Samaritan Regional Medical Center",
+        "0.811",
+        "0.077",
+        "0.112",
+        "75-90%",
+        false,
+        "3600 NW Samaritan Drive Corvallis OR 97330",
+        "POINT (-123.251104 44.604624)",
+        "16",
+        "8",
+        "2316"
+      ],
+      [
+        "row-aedh.neis-u3n8",
+        "00000000-0000-0000-5B7F-B41F75198908",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Tuality Healthcare",
+        "0.855",
+        "0.045",
+        "0.101",
+        "75-90%",
+        false,
+        "335 SE 8th Avenue Hillsboro OR 97123",
+        "POINT (-122.97731 45.519623)",
+        "29",
+        "15",
+        "724"
+      ],
+      [
+        "row-6r4g_zee5.gzgj",
+        "00000000-0000-0000-A573-45AD05B3A9FA",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Samaritan Pacific Health Systems",
+        "0.814",
+        "0.069",
+        "0.117",
+        "75-90%",
+        false,
+        "930 SW Abbey St. Newport OR 97365",
+        "POINT (-124.059164 44.629858)",
+        "10",
+        "5",
+        "2372"
+      ],
+      [
+        "row-k3ma_92qx~v44c",
+        "00000000-0000-0000-3AF0-4947A74A2595",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Oregon Health & Science University",
+        "0.899",
+        "0.05",
+        "0.052",
+        "75-90%",
+        false,
+        "3181 SW Sam Jackson Park Rd Portland OR 97239",
+        "POINT (-122.687974 45.499201)",
+        "36",
+        "18",
+        "2410"
+      ],
+      [
+        "row-6dx4.c684.eh8h",
+        "00000000-0000-0000-B0BA-7268E86A2E01",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Bay Area Hospital",
+        "0.755",
+        "0.182",
+        "0.063",
+        "75-90%",
+        false,
+        "1775 Thompson Rd Coos Bay OR 97420",
+        "POINT (-124.232463 43.385854)",
+        "9",
+        "5",
+        "2320"
+      ],
+      [
+        "row-n4ay_q2sj.qakk",
+        "00000000-0000-0000-6A4A-625C3FDC6045",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Sacred Heart Medical Center University District",
+        "0.801",
+        "0.032",
+        "0.167",
+        "75-90%",
+        false,
+        "1255 Hilyard Street Eugene OR 97401",
+        "POINT (-123.082105 44.046056)",
+        "11",
+        "6",
+        "2371"
+      ],
+      [
+        "row-u2qu.g6dz-r9vu",
+        "00000000-0000-0000-968A-1D0FACFFD683",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Legacy Silverton",
+        "0.88",
+        "0.112",
+        "0.008",
+        "75-90%",
+        false,
+        "342 Fairview Street Silverton OR 97381",
+        "POINT (-122.790746 45.004564)",
+        "18",
+        "9",
+        "2409"
+      ],
+      [
+        "row-xgts.5xfz-gkuf",
+        "00000000-0000-0000-5C9B-648CA35DB70C",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Lake District Hospital",
+        "0.93",
+        "0.07",
+        "0.0",
+        "≥90%",
+        true,
+        "700 South J Street Lakeview OR 97630",
+        "POINT (-120.351437 42.181583)",
+        "56",
+        "28",
+        "2370"
+      ],
+      [
+        "row-iy6f_yhuj~n6t9",
+        "00000000-0000-0000-E6EC-A8ED50331ED6",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "McKenzie-Willamette Medical Center",
+        "0.821",
+        "0.131",
+        "0.048",
+        "75-90%",
+        false,
+        "1460 G Street Springfield OR 97477",
+        "POINT (-123.002589 44.0524)",
+        "12",
+        "6",
+        "2371"
+      ],
+      [
+        "row-47er~gvsd-4xkq",
+        "00000000-0000-0000-EB48-E8CF826D4827",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Willamette Valley Medical Center",
+        "0.949",
+        "0.051",
+        "0.0",
+        "≥90%",
+        true,
+        "2700 SE Stratus Ave McMinnville OR 97128",
+        "POINT (-123.16523 45.20031)",
+        "24",
+        "12",
+        "2453"
+      ],
+      [
+        "row-r8g7.che3-wgyh",
+        "00000000-0000-0000-6B47-1651CA5766C3",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Cedar Hills Hospital",
+        "0.571",
+        "0.219",
+        "0.21",
+        "≤59%",
+        false,
+        "10300 SW Eastridge Street Portland OR 97225",
+        "POINT (-122.783797 45.506265)",
+        "34",
+        "17",
+        "724"
+      ],
+      [
+        "row-fr5k_grpc_3ria",
+        "00000000-0000-0000-6E7C-FCFBD9265683",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Asante Ashland Community Hospital",
+        "0.7",
+        "0.148",
+        "0.152",
+        "60-74%",
+        false,
+        "280 Maple Street Ashland OR 97520",
+        "POINT (-122.725129 42.206445)",
+        "5",
+        "3",
+        "2367"
+      ],
+      [
+        "row-qrkk_3axn-8n4y",
+        "00000000-0000-0000-6D00-6039762BDDE1",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Blue Mountain Hospital",
+        "0.942",
+        "0.024",
+        "0.034",
+        "≥90%",
+        true,
+        "170 Ford Road John Day OR 97845",
+        "POINT (-118.95922 44.417651)",
+        "60",
+        "30",
+        "2365"
+      ],
+      [
+        "row-qa36_3988.neb4",
+        "00000000-0000-0000-6741-9A347BE1F383",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Samaritan Albany General Hospital",
+        "0.817",
+        "0.08",
+        "0.103",
+        "75-90%",
+        false,
+        "1046 Sixth Avenue, Albany OR 97321",
+        "POINT (-123.116771 44.632067)",
+        "15",
+        "8",
+        "2407"
+      ],
+      [
+        "row-uc7e_jbeb_w5ri",
+        "00000000-0000-0000-2B74-A2127A33344C",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Salem Hospital",
+        "0.856",
+        "0.077",
+        "0.067",
+        "75-90%",
+        false,
+        "890 Oak St. Salem OR 97301",
+        "POINT (-122.986043 44.398692)",
+        "11",
+        "6",
+        "2407"
+      ],
+      [
+        "row-pq37_vvaa-4ea7",
+        "00000000-0000-0000-C1A4-0AD00FCBDD0F",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Providence Seaside Hospital",
+        "0.808",
+        "0.044",
+        "0.148",
+        "75-90%",
+        false,
+        "725 S Wahanna Rd Seaside OR 97138",
+        "POINT (-123.914805 45.989367)",
+        "32",
+        "16",
+        "2318"
+      ],
+      [
+        "row-e2zz-4we3.szje",
+        "00000000-0000-0000-0D4E-5EF0743AB994",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Kaiser Permanente Westside Medical Center",
+        "0.841",
+        "0.036",
+        "0.124",
+        "75-90%",
+        false,
+        "2875 NW Stucki Ave Hillsboro OR 97124",
+        "POINT (-122.875667 45.539713)",
+        "30",
+        "15",
+        "724"
+      ],
+      [
+        "row-h25w-ayx9-rc28",
+        "00000000-0000-0000-3D76-5982BD812E35",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Tillamook Regional Medical Center",
+        "0.735",
+        "0.208",
+        "0.058",
+        "60-74%",
+        false,
+        "1000 Third Street Tillamook OR 97141",
+        "POINT (-123.854951 45.456322)",
+        "32",
+        "16",
+        "2412"
+      ],
+      [
+        "row-3kqr-bgdh~6cji",
+        "00000000-0000-0000-5C40-6F8DF8DDBE5B",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "St. Charles Medical Center-Redmond",
+        "0.908",
+        "0.028",
+        "0.064",
+        "≥90%",
+        true,
+        "1253 NW Canal Blvd Redmond OR 97756",
+        "POINT (-121.168558 44.288703)",
+        "53",
+        "27",
+        "2362"
+      ],
+      [
+        "row-9qca.e8kc.fn8u",
+        "00000000-0000-0000-B561-6A0275154D3E",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Asante Rogue Regional Medical Center",
+        "0.745",
+        "0.198",
+        "0.058",
+        "60-74%",
+        false,
+        "2825 E. Barnett Rd. Medford OR 97504",
+        "POINT (-122.830443 42.316483)",
+        "6",
+        "3",
+        "2367"
+      ],
+      [
+        "row-25hv-94b4_kksu",
+        "00000000-0000-0000-FE2D-8AA9774CAA58",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Cottage Grove Community Hospital",
+        "0.869",
+        "0.02",
+        "0.112",
+        "75-90%",
+        false,
+        "1515 Village Drive Cottage Grove OR 97424",
+        "POINT (-123.038676 43.803837)",
+        "7",
+        "4",
+        "2371"
+      ],
+      [
+        "row-p5vj_m5ru~ixwy",
+        "00000000-0000-0000-87D2-5185D087EDC7",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Mercy Medical Center",
+        "0.628",
+        "0.067",
+        "0.305",
+        "60-74%",
+        false,
+        "2700 Stewart Parkway Roseburg OR 97471",
+        "POINT (-123.371604 43.236824)",
+        "2",
+        "1",
+        "2363"
+      ],
+      [
+        "row-rucv~h5ku~ui7k",
+        "00000000-0000-0000-BE0E-8A51601A36CF",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Good Shepherd Medical Center",
+        "0.834",
+        "0.036",
+        "0.13",
+        "75-90%",
+        false,
+        "610 NW 11th Street Hermiston OR 97838",
+        "POINT (-119.31095 45.846135)",
+        "57",
+        "29",
+        "2413"
+      ],
+      [
+        "row-pwjk_qkzi.u258",
+        "00000000-0000-0000-AFCA-0F2A92885AA6",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Samaritan North Lincoln Hospital",
+        "0.842",
+        "0.08",
+        "0.078",
+        "75-90%",
+        false,
+        "3043 NE 28th St Lincoln City OR 97367",
+        "POINT (-123.995454 44.985179)",
+        "10",
+        "5",
+        "2372"
+      ],
+      [
+        "row-jaew-5t5q_x59h",
+        "00000000-0000-0000-3F25-C8EBC622F885",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Legacy Good Samaritan Medical Center",
+        "0.88",
+        "0.102",
+        "0.018",
+        "75-90%",
+        false,
+        "1015 NW 22nd Avenue Portland OR 97210",
+        "POINT (-122.696589 45.530551)",
+        "33",
+        "17",
+        "2410"
+      ],
+      [
+        "row-gpqb-u59h~qe88",
+        "00000000-0000-0000-5A07-3967448E2054",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Providence St. Vincent Medical Center",
+        "0.784",
+        "0.042",
+        "0.174",
+        "75-90%",
+        false,
+        "9205 SW Barnes Rd Portland OR 97225",
+        "POINT (-122.770657 45.50882)",
+        "34",
+        "17",
+        "724"
+      ],
+      [
+        "row-z3vn~uhgn~t537",
+        "00000000-0000-0000-45B6-C0F1BA3331C7",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "St Alphonsus Medical Center-Baker City",
+        "0.808",
+        "0.159",
+        "0.033",
+        "75-90%",
+        false,
+        "3325 Pocahontas Road Baker City OR 97814",
+        "POINT (-117.846285 44.79612)",
+        "60",
+        "30",
+        "2315"
+      ],
+      [
+        "row-7rbm~yrhw_exh7",
+        "00000000-0000-0000-42E5-44410EA5DB01",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Wallowa Memorial Hospital",
+        "0.879",
+        "0.089",
+        "0.032",
+        "75-90%",
+        false,
+        "601 Medical Parkway Enterprise OR 97828",
+        "POINT (-117.281385 45.431755)",
+        "58",
+        "29",
+        "2450"
+      ],
+      [
+        "row-ux3b.g97y_t8uw",
+        "00000000-0000-0000-F2BA-D69EE4C0FC1D",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "St Anthony Hospital",
+        "0.937",
+        "0.056",
+        "0.007",
+        "≥90%",
+        true,
+        "1601 SE Court Avenue Pendleton OR 97801",
+        "POINT (-118.769421 45.673008)",
+        "58",
+        "29",
+        "2413"
+      ],
+      [
+        "row-se6j.un52_xuwb",
+        "00000000-0000-0000-14C9-04246BB26125",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Adventist Medical Center",
+        "0.817",
+        "0.133",
+        "0.05",
+        "75-90%",
+        false,
+        "10123 SE Market Street Portland OR 97216",
+        "POINT (-122.559093 45.511537)",
+        "46",
+        "23",
+        "2410"
+      ],
+      [
+        "row-pm9v~5xm5-pbyq",
+        "00000000-0000-0000-3AE0-E40F26728B05",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Sky Lakes Medical Center",
+        "0.74",
+        "0.095",
+        "0.164",
+        "60-74%",
+        false,
+        "2865 Daggett Klamath Falls OR 97601",
+        "POINT (-121.787391 42.252655)",
+        "56",
+        "28",
+        "2369"
+      ],
+      [
+        "row-cuc4-fgwn~u4fb",
+        "00000000-0000-0000-EA2B-9D5717C99B22",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Curry General Hospital",
+        "0.912",
+        "0.088",
+        "0.0",
+        "≥90%",
+        true,
+        "94220 Fourth Street Gold Beach OR 97444",
+        "POINT (-124.418658 42.411659)",
+        "1",
+        "1",
+        "2321"
+      ],
+      [
+        "row-8kha-4adr_54dm",
+        "00000000-0000-0000-60F2-B30BB152977E",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Legacy Meridian Park Medical Center",
+        "0.891",
+        "0.095",
+        "0.014",
+        "75-90%",
+        false,
+        "19300 SW 65th Avenue Tualatin OR 97062",
+        "POINT (-122.743931 45.377481)",
+        "37",
+        "19",
+        "724"
+      ],
+      [
+        "row-2ur8_frmj_ce6m",
+        "00000000-0000-0000-EE2F-696E71E50B9D",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Vibra Specialty Hospital",
+        "0.709",
+        "0.072",
+        "0.219",
+        "60-74%",
+        false,
+        "10300 NE Hancock Street Portland OR 97220",
+        "POINT (-122.557158 45.536305)",
+        "45",
+        "23",
+        "2410"
+      ],
+      [
+        "row-g8k6.rqem_zfsx",
+        "00000000-0000-0000-2119-60D39EDCF9E0",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Pioneer Memorial Hospital - Heppner",
+        "0.866",
+        "0.0",
+        "0.134",
+        "75-90%",
+        false,
+        "564 E Pioneer Drive Heppner OR 97836",
+        "POINT (-119.54763 45.356268)",
+        "57",
+        "29",
+        "722"
+      ],
+      [
+        "row-rc8y_fzix-y34j",
+        "00000000-0000-0000-309C-5CF9B4ADD0BD",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Oregon State Hospitals",
+        "0.652",
+        "0.121",
+        "0.227",
+        "60-74%",
+        false,
+        "2600 Center St NE Salem OR 97301",
+        "POINT (-123.003653 44.939942)",
+        "21",
+        "11",
+        "2409"
+      ],
+      [
+        "row-nyqd-vcug_43ia",
+        "00000000-0000-0000-5195-63A5E7B128B7",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "West Valley Hospital",
+        "0.845",
+        "0.071",
+        "0.084",
+        "75-90%",
+        false,
+        "525 SE Washington St Dallas OR 97338",
+        "POINT (-123.310383 44.919404)",
+        "23",
+        "12",
+        "723"
+      ],
+      [
+        "row-weyv~fer3_kcgx",
+        "00000000-0000-0000-E954-66F1A77DCD02",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Grande Ronde Hospital",
+        "0.882",
+        "0.109",
+        "0.009",
+        "75-90%",
+        false,
+        "900 Sunset Drive La Grande OR 97850",
+        "POINT (-118.104828 45.319464)",
+        "58",
+        "29",
+        "2414"
+      ],
+      [
+        "row-bg47~atv2~tikn",
+        "00000000-0000-0000-F68B-351460EB0D95",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Asante Three Rivers Medical Center",
+        "0.793",
+        "0.193",
+        "0.014",
+        "75-90%",
+        false,
+        "500 SW Ramsey Avenue Grants Pass OR 97527",
+        "POINT (-123.341495 42.420437)",
+        "3",
+        "2",
+        "2368"
+      ],
+      [
+        "row-sp3j-ysih~56jd",
+        "00000000-0000-0000-0DC3-3F287B689888",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Mid-Columbia Medical Center",
+        "0.894",
+        "0.048",
+        "0.058",
+        "75-90%",
+        false,
+        "1700 East 19th Street The Dalles OR 97058",
+        "POINT (-121.16547 45.587948)",
+        "59",
+        "30",
+        "2451"
+      ],
+      [
+        "row-nmqm-wanm_49ft",
+        "00000000-0000-0000-D8AF-974DA04313C6",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Providence Portland Medical Center",
+        "0.78",
+        "0.068",
+        "0.152",
+        "75-90%",
+        false,
+        "4805 NE Glisan St Portland OR 97213",
+        "POINT (-122.614058 45.526518)",
+        "46",
+        "23",
+        "2410"
+      ],
+      [
+        "row-si2v~udha_vcmt",
+        "00000000-0000-0000-CD34-D86C7C346627",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Kaiser Permanente Sunnyside Medical Center",
+        "0.832",
+        "0.098",
+        "0.07",
+        "75-90%",
+        false,
+        "10180 SE Sunnyside Rd Clackamas OR 97015",
+        "POINT (-122.558525 45.433462)",
+        "48",
+        "24",
+        "2317"
+      ],
+      [
+        "row-87qy-euig.23md",
+        "00000000-0000-0000-5AA9-210188596D16",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Southern Coos Hospital and Health Center",
+        "0.74",
+        "0.15",
+        "0.11",
+        "60-74%",
+        false,
+        "900 11th St SE Bandon OR 97411",
+        "POINT (-124.402426 43.113244)",
+        "1",
+        "1",
+        "2320"
+      ],
+      [
+        "row-3jh7_c7c6.eexn",
+        "00000000-0000-0000-0FAA-12273D5B2D69",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "St. Charles Medical Center-Madras",
+        "0.877",
+        "0.078",
+        "0.045",
+        "75-90%",
+        false,
+        "470 NE A St. Madras OR 97741",
+        "POINT (-121.121358 44.637362)",
+        "59",
+        "30",
+        "721"
+      ],
+      [
+        "row-yvtv~8ydi-pi6i",
+        "00000000-0000-0000-2ED5-D2B6E4D80512",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Legacy Mt. Hood Medical Center",
+        "0.866",
+        "0.128",
+        "0.006",
+        "75-90%",
+        false,
+        "24800 SE Stark Street Gresham OR 97030",
+        "POINT (-122.408279 45.519053)",
+        "49",
+        "25",
+        "2410"
+      ],
+      [
+        "row-8s8m-phcj-7bdi",
+        "00000000-0000-0000-89A5-A39B9C402A27",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Columbia Memorial Hospital",
+        "0.815",
+        "0.164",
+        "0.021",
+        "75-90%",
+        false,
+        "2111 Exchange Astoria OR 97103",
+        "POINT (-123.818502 46.188503)",
+        "32",
+        "16",
+        "2318"
+      ],
+      [
+        "row-h63j~jn8t~bhnd",
+        "00000000-0000-0000-2913-2BEB64D9495D",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "St. Charles Medical Center-Bend",
+        "0.917",
+        "0.035",
+        "0.048",
+        "≥90%",
+        true,
+        "2500 NE Neff Rd Bend OR 97701",
+        "POINT (-121.266661 44.065757)",
+        "54",
+        "27",
+        "2362"
+      ],
+      [
+        "row-xf9x.r6ac_8x7v",
+        "00000000-0000-0000-6EC5-D096E407FCEF",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Providence Hood River Memorial Hospital",
+        "0.809",
+        "0.071",
+        "0.12",
+        "75-90%",
+        false,
+        "810 12TH STREET Hood River OR 97031",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "row-2idp~6jcs.zpng",
+        "00000000-0000-0000-E83E-53025AF8ACBE",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Providence Willamette Falls Medical Center",
+        "0.717",
+        "0.091",
+        "0.192",
+        "60-74%",
+        false,
+        "1500 Division St Oregon City OR 97045",
+        "POINT (-122.588371 45.356647)",
+        "40",
+        "20",
+        "2317"
+      ],
+      [
+        "row-2iuj.sx83.yzny",
+        "00000000-0000-0000-A17D-0FE4F4A22A69",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "St. Charles Medical Center - Prineville",
+        "0.933",
+        "0.018",
+        "0.049",
+        "≥90%",
+        true,
+        "1201 NE Elm St Prineville OR 97754",
+        "POINT (-120.842563 44.310442)",
+        "55",
+        "28",
+        "719"
+      ],
+      [
+        "row-dc28.a9uf~6zpd",
+        "00000000-0000-0000-AAF6-986FEC30AEF5",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Samaritan Lebanon Community Hospital",
+        "0.845",
+        "0.075",
+        "0.08",
+        "75-90%",
+        false,
+        "525 N. Santiam Hwy Lebanon OR 97355",
+        "POINT (-122.908414 44.550528)",
+        "17",
+        "9",
+        "2407"
+      ],
+      [
+        "row-ng79_t3q8_mn47",
+        "00000000-0000-0000-A0D6-BAEA5EF47B63",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Sacred Heart Medical Center at RiverBend",
+        "0.83",
+        "0.042",
+        "0.128",
+        "75-90%",
+        false,
+        "3333 RiverBend Drive Springfield OR 97477",
+        "POINT (-123.028655 44.081312)",
+        "12",
+        "6",
+        "2371"
+      ],
+      [
+        "row-x58z~kp4x-2pde",
+        "00000000-0000-0000-3334-D52CD85BDE7D",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "PeaceHealth Peace Harbor Medical Center",
+        "0.898",
+        "0.05",
+        "0.052",
+        "75-90%",
+        false,
+        "400 9th Street Florence OR 97439",
+        "POINT (-124.117464 43.974589)",
+        "9",
+        "5",
+        "2371"
+      ],
+      [
+        "row-4c9c~u6xg-g28g",
+        "00000000-0000-0000-7DA1-0F66C0E056AB",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Providence Newberg Medical Center",
+        "0.794",
+        "0.04",
+        "0.166",
+        "75-90%",
+        false,
+        "1001 Providence Drive Newberg OR 97132",
+        "POINT (-122.933913 45.308552)",
+        "25",
+        "13",
+        "2453"
+      ],
+      [
+        "row-88xh_7gh2.8bcv",
+        "00000000-0000-0000-CDC6-2B328E7064C6",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Providence Medford Medical Center",
+        "0.68",
+        "0.107",
+        "0.214",
+        "60-74%",
+        false,
+        "1111 Crater Lake Ave Medford OR 97504",
+        "POINT (-122.861 42.339971)",
+        "6",
+        "3",
+        "2367"
+      ],
+      [
+        "row-piz5.6u94~whaf",
+        "00000000-0000-0000-F5C9-16F702201DC3",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Legacy Emanuel Medical Center and Randall Childrens Hospital",
+        "0.88",
+        "0.107",
+        "0.013",
+        "75-90%",
+        false,
+        "2801 N. Gantenbein Portland OR 97227",
+        "POINT (-122.669445 45.54405)",
+        "43",
+        "22",
+        "2410"
+      ],
+      [
+        "row-eqgz-kgri~kdnh",
+        "00000000-0000-0000-048E-D9896BF95FA6",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "Providence Milwaukie Hospital",
+        "0.779",
+        "0.046",
+        "0.175",
+        "75-90%",
+        false,
+        "10150 SE 32nd Ave Portland OR 97222",
+        "POINT (-122.629791 45.449714)",
+        "41",
+        "21",
+        "2317"
+      ],
+      [
+        "row-m4nm_xnxn_kqs3",
+        "00000000-0000-0000-29A7-F21F1F085A6E",
+        0,
+        1555089135,
+        null,
+        1555089137,
+        null,
+        "{ }",
+        "St Alphonsus Medical Center-Ontario",
+        "0.963",
+        "0.036",
+        "0.001",
+        "≥90%",
+        true,
+        "351 SW Ninth Street Ontario OR 97914",
+        "POINT (-116.975133 44.025448)",
+        "60",
+        "30",
+        "2408"
+      ]
+    ]
+  }
